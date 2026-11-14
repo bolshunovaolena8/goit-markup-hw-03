@@ -1,3 +1,6 @@
+header {
+  border-bottom: 1px solid #f4f4fd;
+}
 .header-container {
   display: flex;
   padding: 0 15px 0 15px;
