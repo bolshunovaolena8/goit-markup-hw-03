@@ -2,6 +2,13 @@
   background-color: #2e2f42;
   color: #ffffff;
 }
+.footer-container {
+  padding: 100px 15px;
+  width: 1158px;
+}
+.footer-logo-box {
+  width: 264px;
+}
 .footer-text {
   font-size: 16px;
   color: #f4f4fd;
@@ -16,6 +23,8 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  display: block;
+  margin-bottom: 8px;
 }
 /* .logo-footer:hover,
 .logo-footer:focus {
