@@ -1,10 +1,10 @@
 .team {
   background-color: #f4f4fd;
 }
-.team-item {
-  background-color: #ffffff;
-  text-align: center;
+.team-container {
+  padding: 120px 0;
 }
+
 .team-title {
   text-align: center;
   font-size: 36px;
@@ -12,6 +12,21 @@
   font-weight: 700;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  margin: 0 0 72px;
+}
+.team-list {
+  display: flex;
+  gap: 24px;
+  margin: 0 15px;
+}
+.team-item {
+  background-color: #ffffff;
+  text-align: center;
+}
+.team-item img {
+  display: block;
+  width: calc((100%-7px) / 4);
+  height: auto;
 }
 .team-subtitle {
   color: #2e2f42;
