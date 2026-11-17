@@ -14,12 +14,12 @@
 .team-list {
   display: flex;
   gap: 24px;
-  margin: 0 15px;
+  /* margin: 0 15px; */
 }
 .team-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  width: calc((100% - 7px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .team-item img {
   display: block;
