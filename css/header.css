@@ -3,7 +3,6 @@
 }
 .header-container {
   display: flex;
-  padding: 0 15px 0 15px;
   align-items: center;
 }
 .logo {
