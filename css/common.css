@@ -18,6 +18,7 @@ address {
 .container {
   width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 .sr-only {
   position: absolute;

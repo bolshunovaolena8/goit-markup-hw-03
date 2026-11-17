@@ -1,5 +1,5 @@
-header {
-  border-bottom: 1px solid #f4f4fd;
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
   display: flex;

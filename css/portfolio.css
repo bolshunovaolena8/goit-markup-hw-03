@@ -1,5 +1,7 @@
-.portfolio-container {
+.portfolio {
   padding: 120px 0;
+}
+.portfolio-container {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -14,7 +16,7 @@
 }
 .portfolio-list {
   display: flex;
-  gap: 24px;
+  gap: 48px 24px;
   flex-wrap: wrap;
   margin: 0 15px;
 }
@@ -43,6 +45,7 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 /* P */
 .portfolio-item-text {

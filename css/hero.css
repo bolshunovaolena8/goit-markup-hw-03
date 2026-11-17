@@ -1,7 +1,5 @@
 .hero {
   background-color: #2e2f42;
-}
-.hero-container {
   padding: 188px 0;
 }
 .hero-title {
@@ -15,6 +13,7 @@
   margin: 0 auto 48px;
 }
 .hero-button {
+  box-sizing: border-box;
   background-color: #4d5ae5;
   color: #ffffff;
   font-size: 16px;
@@ -23,10 +22,9 @@
   letter-spacing: 0.04em;
   display: block;
   margin: 0 auto;
-  width: 169px;
   border: none;
   border-radius: 4px;
-  padding: 16px;
+  padding: 16px 32px;
 }
 .hero-button:hover,
 .hero-button:focus {
